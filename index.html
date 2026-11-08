@@ -1,33 +1,168 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="shortcut icon" href="favicon.ico">
-        <title>
-            Bernardo
-        </title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <div id="header">
-            <h1 id="header_text">
-                Um pequeno teste
-            </h1>
-        </div>
-        <div id="body">
-            <div id="body_left">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bernardo Junior · Android Engineer</title>
+    <meta name="description" content="Bernardo Junior – Android Engineer (Kotlin, Java, Jetpack Compose) based in Toronto, Canada.">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="nav">
+        <a class="brand" href="#top">Bernardo Junior</a>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#community">Community</a>
+        </nav>
+    </header>
 
+    <main id="top">
+        <section class="hero">
+            <div class="avatar" aria-hidden="true">BJ</div>
+            <p class="eyebrow">Toronto, Ontario, Canada</p>
+            <h1>Bernardo <span class="grad">Junior</span></h1>
+            <p class="headline">Android Engineer <span>·</span> Kotlin <span>·</span> Java <span>·</span> Jetpack Compose</p>
+            <div class="cta">
+                <a class="btn primary" href="https://www.linkedin.com/in/bernardo-junior/" target="_blank" rel="noopener">LinkedIn</a>
+                <a class="btn" href="#experience">See my work</a>
             </div>
-            <div id="body_mid">
+        </section>
 
+        <section id="about" class="section">
+            <h2>About</h2>
+            <p class="lead">Passionate about Artificial Intelligence, Chatbots and Android Development. The latter is my focus.</p>
+            <div class="stats">
+                <div><strong>6+</strong><span>years building Android apps</span></div>
+                <div><strong>2</strong><span>published research papers</span></div>
+                <div><strong>M.Sc.</strong><span>Software Engineering</span></div>
             </div>
-            <div id="body_right">
+        </section>
 
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <div class="timeline">
+                <article class="item">
+                    <span class="dot"></span>
+                    <div class="meta">Nov 2025 – Present · Toronto, Canada</div>
+                    <h3>Android Developer</h3>
+                    <p class="org">Scotiabank · Permanent Full-time</p>
+                </article>
+                <article class="item">
+                    <span class="dot"></span>
+                    <div class="meta">Apr 2021 – Sep 2025 · Recife, Brazil</div>
+                    <h3>Android Developer</h3>
+                    <p class="org">Inter · Full-time</p>
+                    <p>Android development with MVVM, Clean Architecture, Git, Kotlin, Android Studio, Coroutines, Retrofit, unit and instrumented tests, Robolectric, Mockk, Mockito, MockWebServer and Jacoco.</p>
+                </article>
+                <article class="item">
+                    <span class="dot"></span>
+                    <div class="meta">Apr 2020 – Apr 2021 · Recife, Brazil</div>
+                    <h3>Android Developer</h3>
+                    <p class="org">Concrete · Full-time</p>
+                    <p>Android development with MVVM, MVP, Git, Kotlin, Android Studio, Coroutines, Retrofit, unit and instrumented tests, Robolectric, Mockk, Mockito, MockWebServer and Jacoco.</p>
+                </article>
+                <article class="item">
+                    <span class="dot"></span>
+                    <div class="meta">Sep 2017 – Mar 2020 · Greater Recife</div>
+                    <h3>Cognitive Technologies Advocate</h3>
+                    <p class="org">SoftexRecife</p>
+                    <p>Evangelist in cognitive technologies, fostering innovation and the use of artificial intelligence in technology companies at Porto Digital.</p>
+                </article>
+                <article class="item">
+                    <span class="dot"></span>
+                    <div class="meta">Oct 2015 – Aug 2016 · Greater Recife</div>
+                    <h3>Teacher Assistant</h3>
+                    <p class="org">Federal Rural University of Pernambuco (UFRPE)</p>
+                    <p>Assisted Professor Cícero Garrozi in the Introduction to Programming course.</p>
+                </article>
             </div>
-        </div>
-        <div id="footer">
+        </section>
 
-        </div>
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <div class="cards">
+                <article class="card">
+                    <div class="meta">2020 – 2023</div>
+                    <h3>Master's, Computer Software Engineering</h3>
+                    <p class="org">Universidade Federal de Pernambuco</p>
+                    <p>Studying and comparing mobile applications' battery consumption.</p>
+                </article>
+                <article class="card">
+                    <div class="meta">2015 – 2019</div>
+                    <h3>Bachelor's, Information Systems</h3>
+                    <p class="org">Universidade Federal Rural de Pernambuco</p>
+                    <p>Android Development and Agile Methodologies.</p>
+                </article>
+            </div>
 
-    </body>
+            <h3 class="sub">Published papers</h3>
+            <ul class="papers">
+                <li><a href="https://dl.acm.org/doi/10.1145/3593434.3593487" target="_blank" rel="noopener">Analyzing the Resource Usage Overhead of Mobile App Development Frameworks <i>↗</i></a></li>
+                <li><a href="https://ieeexplore.ieee.org/document/10172921" target="_blank" rel="noopener">Ebserver: Automating Resource-Usage Data Collection of Android Applications <i>↗</i></a></li>
+            </ul>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="chips">
+                <span class="chip hot">Android Development</span>
+                <span class="chip hot">Kotlin</span>
+                <span class="chip hot">Android Jetpack</span>
+                <span class="chip hot">Kotlin Coroutines</span>
+                <span class="chip hot">Agile Methodologies</span>
+                <span class="chip">Java</span>
+                <span class="chip">Jetpack Compose</span>
+                <span class="chip">MVVM</span>
+                <span class="chip">MVP</span>
+                <span class="chip">Clean Architecture</span>
+                <span class="chip">Git</span>
+                <span class="chip">Android Studio</span>
+                <span class="chip">Retrofit</span>
+                <span class="chip">Unit Tests</span>
+                <span class="chip">Instrumented Tests</span>
+                <span class="chip">Robolectric</span>
+                <span class="chip">Mockk</span>
+                <span class="chip">Mockito</span>
+                <span class="chip">MockWebServer</span>
+                <span class="chip">Jacoco</span>
+            </div>
+            <h3 class="sub">Languages</h3>
+            <div class="langs">
+                <div><strong>English</strong><span>Professional working proficiency</span></div>
+                <div><strong>Portuguese</strong><span>Native or bilingual proficiency</span></div>
+            </div>
+        </section>
+
+        <section id="community" class="section">
+            <h2>Community</h2>
+            <div class="cards">
+                <article class="card">
+                    <div class="meta">Sep 2018 – Apr 2020</div>
+                    <h3>Co-Organizer</h3>
+                    <p class="org">Rec.Ai</p>
+                    <p>A gathering place for AI enthusiasts to talk about artificial intelligence.</p>
+                </article>
+                <article class="card">
+                    <div class="meta">Jan 2018 – Apr 2020</div>
+                    <h3>Community Manager</h3>
+                    <p class="org">ChatBot Pernambuco</p>
+                    <p>Community of more than 900 members with theoretical and practical chatbot meetings, from the curious to experts.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Let's connect</p>
+        <a class="btn primary" href="https://www.linkedin.com/in/bernardo-junior/" target="_blank" rel="noopener">linkedin.com/in/bernardo-junior</a>
+        <small>© 2026 Bernardo Junior</small>
+    </footer>
+</body>
 </html>
-
