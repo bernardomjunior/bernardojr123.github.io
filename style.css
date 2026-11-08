@@ -128,3 +128,16 @@ footer small { display: block; margin-top: 28px; color: var(--muted); }
     .nav nav { display: none; }
     .hero { padding: 60px 0 40px; }
 }
+
+/* additions */
+.sublead { color: var(--muted); margin-top: 10px; }
+.highlight { margin-top: 10px; }
+.highlight strong { background: linear-gradient(90deg, var(--accent2), var(--accent)); -webkit-background-clip: text; background-clip: text; color: transparent; font-size: 1.15rem; }
+.tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+.tags span { font-size: .78rem; font-weight: 600; padding: 4px 12px; border-radius: 999px; background: color-mix(in srgb, var(--accent2) 12%, transparent); color: var(--accent2); }
+.item p.stack { font-size: .82rem; opacity: .85; }
+.bullets { margin: 8px 0 0 18px; padding: 0; color: var(--muted); font-size: .95rem; }
+.bullets li::marker { color: var(--accent); }
+footer .mail { display: block; margin-top: 16px; color: var(--muted); }
+footer .mail:hover { color: var(--text); }
+.item p.list-title { margin-top: 14px; font-weight: 700; color: var(--text); font-size: .95rem; }
